@@ -3,7 +3,7 @@
 
 <h2>man or help:</h2>
 <ul>
-<ol>sh (Run sh as well)</ol>
+<li>sh (Run sh as well)</li>
 </ul>
 
 <h2>Output</h2>
