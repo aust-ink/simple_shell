@@ -2,8 +2,9 @@
 <p>Write a simple UNIX command interpreter.</p>
 
 <h2>man or help:</h2>
-
-<p>sh (Run sh as well)</p>
+<ul>
+<ol>sh (Run sh as well)</ol>
+</ul>
 
 <h2>Output</h2>
 
