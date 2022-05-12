@@ -7,24 +7,24 @@
 </ul>
 
 <h2>Output</h2>
+<ul>
+<li>Unless specified otherwise, your program must have the exact same output as sh (/bin/sh) as well as the exact same error output.</li>
+<li>The only difference is when you print an error, the name of the program must be equivalent to your argv[0]</li>
+</ul>
+  
+<p>Example of error with sh: <br> <br>
+$ echo "qwerty" | /bin/sh <br>
+/bin/sh: 1: qwerty: not found <br>
+$ echo "qwerty" | /bin/../bin/sh <br>
+/bin/../bin/sh: 1: qwerty: not found <br>
+$ </p> <br> <br>
 
-<p>Unless specified otherwise, your program must have the exact same output as sh (/bin/sh) as well as the exact same error output.</p>
-<p>The only difference is when you print an error, the name of the program must be equivalent to your argv[0]</p>
-
-Example of error with sh:
-$ echo "qwerty" | /bin/sh
-/bin/sh: 1: qwerty: not found
-$ echo "qwerty" | /bin/../bin/sh
-/bin/../bin/sh: 1: qwerty: not found
-$
-
-Same error with your program hsh:
-
-$ echo "qwerty" | ./hsh
-./hsh: 1: qwerty: not found
-$ echo "qwerty" | ./././hsh
-./././hsh: 1: qwerty: not found
-$
+<p>Same error with your program hsh: <br><br>
+$ echo "qwerty" | ./hsh <br>
+./hsh: 1: qwerty: not found <br>
+$ echo "qwerty" | ./././hsh <br>
+./././hsh: 1: qwerty: not found <br>
+$ </p> <br><br>
 
 List of allowed functions and system calls
 access (man 2 access)
